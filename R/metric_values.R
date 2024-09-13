@@ -4223,8 +4223,6 @@ metric.values.fish <- function(myDF
                                                                     | FAMILY == "COTTIDAE"]
                                                                 , na.rm = TRUE) / ni_total
                        # % Round-Bodied Suckers
-                       , pi_rbs = 100 * sum(N_TAXA[TYPE == "RBS"], na.rm = TRUE) / ni_total
-                       , pi_brooktrout = 100 * sum(N_TAXA[TYPE_BROOKTROUT == TRUE], na.rm = TRUE) / ni_total
                        , pi_brooktrout_wild = 100 * sum(N_TAXA[TAXAID == "BROOK TROUT, WILD"], na.rm = TRUE) / ni_total
                        , pi_Cato = 100 * sum(N_TAXA[FAMILY == "CATOSTOMIDAE"], na.rm = TRUE) / ni_total
                        , pi_Cent = 100 * sum(N_TAXA[FAMILY == "CENTRARCHIDAE"], na.rm = TRUE) / ni_total
